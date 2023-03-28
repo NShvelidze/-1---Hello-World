@@ -13,7 +13,7 @@ menu = {
 
 while True:
     try:
-        item = input("Item: ")
+        item = input("Item: ").title()
 
         if item in menu:
             item = float(menu[item])
